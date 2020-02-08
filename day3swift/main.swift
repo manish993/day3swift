@@ -8,7 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+/*print("Hello, World!")
 import Foundation
 var str = "hello world :smiley: "
 for c in str {
@@ -105,3 +105,19 @@ var y: [Int]
 y = [Int] ()
 y.append(100)
 print(y)
+var tr:String = "rajesh"
+print(tr)
+*/
+var s1 = S_Student(student_id:100,studentName:"raj",marks:12)
+s1.show()
+var c1=CStudent(student_id:2,studentName:"rajesh",marks:122)
+c1.show()
+var e1=employye()
+e1.employeeid="100"
+e1.fname="raj"
+e1.lname="kumar"
+print(e1.fullname)
+print(e1.age)
+print(e1.employeeid)
+
+
